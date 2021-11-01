@@ -23,7 +23,7 @@ class TitleFragment : Fragment() {
 
         binding.playButton.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
-//            Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
+//        Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
 //        view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
         )
 
